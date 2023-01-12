@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-petsapi-dev-204713-authRole",
+      "UnauthRoleArn": "arn:aws:iam::535922232597:role/amplify-petsapi-dev-204713-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::535922232597:role/amplify-petsapi-dev-204713-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-petsapi-dev-204713-deployment",
+      "UnauthRoleName": "amplify-petsapi-dev-204713-unauthRole",
+      "StackName": "amplify-petsapi-dev-204713",
+      "StackId": "arn:aws:cloudformation:us-east-1:535922232597:stack/amplify-petsapi-dev-204713/ef68e610-9194-11ed-a621-1299a93f3a87",
+      "AmplifyAppId": "d84xqyvgjokk6",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-petsapi-dev-204713-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "petsapi04411c9c": {}
+      },
+      "function": {
+        "petsfunction": {
+          "deploymentBucketName": "amplify-petsapi-dev-204713-deployment",
+          "s3Key": "amplify-builds/petsfunction-5a38724c456f6a484c62-build.zip"
+        }
+      },
+      "storage": {
+        "petsdb": {}
+      },
+      "api": {
+        "petsapi": {}
+      }
+    }
+  }
+}
